@@ -1,0 +1,14 @@
+.container {
+    width: 300px;
+    border: 2px solid red
+}
+.child {
+    width: 100%;
+    height: 50px;
+    background-color: red;
+    text-align: center;
+
+}
+.child h3{
+    margin: 0;
+}z

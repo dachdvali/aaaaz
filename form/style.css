@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+}
+form{
+    border: 2px solid blue;
+    width: 400px;
+    height: 550px;
+
+    display: block;
+    margin: 0 auto  ;
+}
+.intro {
+    width: 100%;
+    height: 8vh;
+    text-align: center;
+    background-color: darkslateblue
+
+
+}
+.inputs{
+    padding: 24px;
+}
+input{
+    width: 300px;
+    display: block;
+    margin: 10px;
+    height: 6vh ;
+    border-radius: 7px;
+}
+.chekboxdiv {
+    display: flex;
+    align-items: center;
+}
+.chekboxdiv input{
+width: 45px;
+}
+button{
+    width: 120px;
+    height: 5vh;
+    border: none;
+    border-radius: 8px;
+    background-color: green;
+    cursor: pointer;
+    color: white;
+    display: block;
+    margin: 0 auto;
+}
+body{
+    background-image: linear-gradient(to bottom,purple, blue);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 100vh;
+}

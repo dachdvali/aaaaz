@@ -1,0 +1,91 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(28, 161, 205);
+}
+.nav{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+ul{
+    display: flex;
+    list-style: none;
+    gap: 3rem;
+}
+.nav.btn{
+    width: 9rem;
+    height: 5vh;
+    color:white;
+    border: 1px solid white;
+    background-color: transparent;
+}
+.nav h1{
+    color: white;
+}
+.landing{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    height: 70vh;
+}
+.child-1{
+    width: 300px;
+}
+.child-1 h1{
+    color: white;
+    font-size: 3rem;
+}
+.child-1 p{
+    color: white
+}
+.pricing-btn{
+    width: 10rem;
+    height: 5vh;
+    border-radius: 7px;
+    border-radius: 17px;
+    border: 1px solid white;
+    background-color:  green;
+    color: white;
+    cursor: pointer;
+}
+form{
+    width: 350px;
+    padding: 25px;
+    box-shadow: 1px 2px 3px rebeccapurple   
+  
+}
+input{ 
+    display: block;
+    width: 100%;
+    height: 2.4rem;
+    margin: 10px 0px;
+    background-color: rgb(162, 162, 162);
+}
+select {
+    display: block;
+    width: 100%;
+    height: 2.4re;
+
+}
+select:focus{ 
+    outline: none;
+}
+.register-btn{
+ width: 100%;
+ height: 2.4rem;
+ border-radius: 17px;
+ border:none;
+ margin-top: 10px;
+ background-color: blue;
+ color: white;
+ cursor:pointer;
+ font-size: 18px;
+}
